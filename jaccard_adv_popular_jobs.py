@@ -1,12 +1,4 @@
 #!/usr/bin/python
-"""
-Predicts that a user will apply to the most popular jobs in his/her city, and
-then to the most popular jobs in his/her state.
-
-simple text matching(no vowels + yes normalisation)
-Takes about a minute to run.
-"""
-
 import csv
 import re
 from collections import defaultdict as ddict
