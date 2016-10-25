@@ -18,15 +18,16 @@ Geographical closeness can be determined using zipcodes.
 Download data files apps.tsv, user_history.tsv, users.tsv, jobs.tsv from http://www.kaggle.com/c/job-recommendation/data in this folder
 
 Use either of the commands
-
-python new_apps_maker1.py
+```
+python new_apps_maker1.py 
 python new_apps_maker2.py
 python new_apps_maker3.py
+```
 
 To generate the training and test data.
 The first one does a 65:35 split with the first 65% examples in training.
 The second one does a 50:50 split with the first 50% examples in training.
 The third one does a 65:35 random split.
 
-Run script.sh
+Run script.sh.
 The results will be written in the file "results"
