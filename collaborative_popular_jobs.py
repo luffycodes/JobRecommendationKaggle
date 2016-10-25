@@ -1,11 +1,4 @@
 #!/usr/bin/python
-"""
-Predicts that a user will apply to the most popular jobs in his/her city, and
-then to the most popular jobs in his/her state.
-
-Takes about a minute to run.
-"""
-
 import csv
 from collections import defaultdict as ddict
 
